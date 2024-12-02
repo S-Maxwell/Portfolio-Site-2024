@@ -1,9 +1,61 @@
-//Hamburger Menu
-body {
-    background-color: black;
+.header {
+    overflow: hidden;
 }
 
-.body {
+//Video Section
+
+#header .bg-vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: cover;
+    object-fit: cover;
+    margin-top: -70px;
+    background-position: center;
+    height: fit-content;
+
+    @media screen and (min-width: 1280px) {
+        margin-top: -190px;
+    }
+}
+
+//Header Content
+
+.header h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2;
+}
+
+.header h1 span {
+    color: #C42B38;
+
+}
+
+.subtext {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.more-abt {
+    padding: 10px 20px;
+    background-color:#FFFFFF;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+//Hamburger Menu
+.side-menu {
     width: 60px;
     display: flex;
     flex-direction: column;
