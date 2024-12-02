@@ -53,6 +53,30 @@
     cursor: pointer;
 }
 
+//Let's Talk Button 
+
+.contact-button {
+    width: 220px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}  
+
+.contact-button:hover {
+
+    transform: scale(1.1);
+}
+
+.contact-button img {
+    width: 23px;
+    height: 23px;
+}
+
 
 //Hamburger Menu
 .side-menu {
@@ -88,5 +112,27 @@
     
 }
 
+//Scroll Up Function
 
+.circle-button { 
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
 
+.circle-button:hover {
+
+    transform: scale(1.1);
+}
+
+.circle-button img {
+    width: 30px;
+    height: 45px;
+}
