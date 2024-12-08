@@ -2,28 +2,39 @@
     overflow: hidden;
 }
 
+:root { 
+    --plyr-color-main: #008080;
+    --plyr-control-icon-size: 15px;
+    --plyr-control-radius: 20px; 
+    --plyr-font-family: Helvetica, Arial, sans-serif;
+    --plyr-control-spacing: 15px;
+  }
+
 //Video Section
 
-#header .bg-vid {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-image: cover;
-    object-fit: cover;
-    margin-top: -70px;
-    background-position: center;
-    height: fit-content;
 
-    @media screen and (min-width: 1280px) {
-        margin-top: -190px;
-    }
-}
+
+// #header .bg-vid {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     z-index: -1;
+//     background-image: cover;
+//     object-fit: cover;
+//     margin-top: -70px;
+//     background-position: center;
+//     height: fit-content;
+
+//     @media screen and (min-width: 1280px) {
+//         margin-top: -190px;
+//     }
+// }
+  
 
 //Header Content
 
 .header h1 {
-    font-size: 30px;
+    font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.2;
 }
@@ -33,25 +44,85 @@
 
 }
 
+
 .subtext {
     font-size: 16px;
     margin: 10px 0;
 }
 
+.subtext span { 
+    color: #528AC8;
+}
+
 .description {
-    font-size: small;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
+.about-me { 
+    font-size: 40px;
+    background-color:#C0C0C0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .more-abt {
     padding: 10px 20px;
     background-color:#FFFFFF;
-    color: #000000;
+    color: #36454F;
     border: none;
     border-radius: 20px;
     font-size: 20px;
     cursor: pointer;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.case-study {
+    padding: 10px 20px;
+    background-color:#FFFFFF;
+    color: #36454F;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.portfolio-me { 
+    font-size: 40px;
+    background-color:#C0C0C0;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+
+.reviews-me {
+    font-size: 40px;
+    background-color:#C0C0C0;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+
+.contact-me {
+    font-size: 40px;
+    background-color:#C0C0C0;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+
+ .logo-design { 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 30px;
+ }
 
 //Let's Talk Button 
 
@@ -80,14 +151,23 @@
 
 //Hamburger Menu
 .side-menu {
-    width: 60px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    background-color: white;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    padding: 34px 0;
+    padding: 0px 24px;
     border-radius: 30px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+
+    .side-menu-content {
+        display: inline-block;
+        img {
+            height: 17px;
+            width: 17px;
+        }
+    }
 }
 
 
@@ -98,19 +178,32 @@
     margin: 10px auto;
 }
 
-@media screen and (min-width: 1200px) {
-    .body {
-        width: 600px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        padding: 0px 64px;
-        border-radius: 30px;
-    }
+// @media screen and (min-width: 1200px) {
+//     // .body {
+//         // width: 600px;
+//         // display: flex;
+//         // flex-direction: row;
+//         // justify-content: center;
+//         // align-items: center;
+//         // background-color: white;
+//         // padding: 0px 64px;
+//         // border-radius: 30px;
+//     }
     
-}
+// }
+
+// .send { 
+//     padding: 10px 20px;
+//     background-color:#FFFFFF;
+//     color: #36454F;
+//     border: none;
+//     border-radius: 20px;
+//     font-size: 20px;
+//     cursor: pointer;
+//     align-items: center;
+//     justify-content: center;
+//     display: flex;
+// }
 
 //Scroll Up Function
 
