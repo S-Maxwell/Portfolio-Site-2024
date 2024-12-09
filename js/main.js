@@ -2,7 +2,7 @@
 //variables
 //functions
 (function () {
-    const player = new Plyr('video');
+    const player = new Plyr('.player');
     
     // const letsTalkBtn = document.querySelector("#btn-1");
 
